@@ -22,7 +22,7 @@ const Info = () => {
                     </p>
                 </div>
                 <div className={"flex flex-col gap-3 "}>
-                    <p className={"dark:text-white text-sm font-neue font-thin tracking-widest"}>Certification of Frontend Developer 2023</p>
+                    <p className={"dark:text-white text-sm font-neue font-thin tracking-widest"}>Certification of The Perfect 404 Frontend Developer 2024</p>
                     <p className={"dark:text-white font-raleway font-black text-xs tracking-widest"}>2024 / Perfect 404 Training Center</p>
                 </div>
                 <div className={"flex flex-col gap-3 "}>
