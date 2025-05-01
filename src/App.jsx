@@ -5,6 +5,7 @@ import Projects from "./page/Projects.jsx";
 import Contact from "./page/Contact.jsx";
 import Info from "./page/Info.jsx";
 import Navbar from "./component/Navbar.jsx";
+import LoadingPage from "./page/LoadingPage.jsx";
 
 const App = () => {
     const [theme, setTheme] = useState("light");
@@ -34,7 +35,8 @@ const App = () => {
 
 
     return (
-        <div className={"bg-white dark:bg-zinc-900 overflow-hidden dark"}>
+        <div className={"bg-white dark:bg-zinc-900 overflow-y-hidden dark"}>
+    <LoadingPage />
             <div
                 className={'absolute flex flex-row gap-10 rotate-270 bottom-22 -left-12'}
             >
@@ -54,7 +56,7 @@ const App = () => {
 
             </div>
             <div
-                className={"border bg-zinc-300/20 relative m-5 dark:bg-zinc-900 border-slate-400 h-[95vh] p-2"}>
+                className={"border bg-zinc-300/20 relative m-5 dark:bg-zinc-900 border-slate-400 h-[94vh] p-2 select-none   "}>
                 <Navbar/>
                 <Routes>
                     <Route path={"/"} element={<Home/>}/>
